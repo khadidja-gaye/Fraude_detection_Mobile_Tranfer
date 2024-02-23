@@ -1,0 +1,9 @@
+﻿,step,amount,oldbalanceOrg,newbalanceOrig,oldbalanceDest,newbalanceDest,isFraud,isFlaggedFraud
+step,1,0.02,-0.01,-0.01,0.03,0.03,0.03,0
+amount,0.02,1,-0,-0.01,0.29,0.46,0.08,0.01
+oldbalanceOrg,-0.01,-0,1,1,0.07,0.04,0.01,0
+newbalanceOrig,-0.01,-0.01,1,1,0.07,0.04,-0.01,0
+oldbalanceDest,0.03,0.29,0.07,0.07,1,0.98,-0.01,-0
+newbalanceDest,0.03,0.46,0.04,0.04,0.98,1,0,-0
+isFraud,0.03,0.08,0.01,-0.01,-0.01,0,1,0.04
+isFlaggedFraud,0,0.01,0,0,-0,-0,0.04,1
