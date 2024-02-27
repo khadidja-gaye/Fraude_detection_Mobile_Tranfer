@@ -63,7 +63,7 @@ with open('style.css')as f:
     st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html = True)
     
     
-df = pd.read_csv('data.csv')
+df = pd.read_csv('https://drive.google.com/file/d/1RI10gvb2GR8c7PB1nGJ6UHU-wYYH9iUP/view?usp=drive_link')
 
 
 
